@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Kart';
+    src: url(Fonts/mario_kart_f2.ttf);
+}
+
 html {
     background-color: black;
     width: 100%;
@@ -16,6 +21,59 @@ body {
 
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
+}
+
+img{
+    margin-top: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    position: relative;
+    top: -12%;
+    left: 20%;
+}
+
+#Propositions{
+    display: flex;
+}
+
+#QuestionContainer {
+    display: flex;
+    padding-bottom: 20px;
+    flex-direction: column;
+}
+
+#Question{
+    display: flex;
+}
+
+.Answer{
+    padding-bottom: 20px;
+}
+
+#NumQuestion {
+    font-family: 'Kart';
+}
+
+#Numero{
+    font-size: xx-large;
+    position: absolute;
+    top: 51%;
+    left: 37.5%;
+}
+
+input {
+    font-family: 'Kart';
+    width: 80px;
+}
+
+#VALIDATION{
+    margin-top: 40px;
+    width: 180px;
 }
